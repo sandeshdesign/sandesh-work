@@ -2,14 +2,22 @@ export default function HomePage() {
   return (
     <main className="max-w-4xl font-satoshi text-neutral-900 px-6 py-20">
       {/* Intro */}
-      <section className="space-y-6 mb-20">
-        <h1 className="text-4xl font-medium">Hi, I’m Sandesh.</h1>
-        <p className="text-lg text-neutral-700 max-w-2xl">
+      <section className="p-base">
+        <h1 className="mt-large text-4xl font-bold">Hi, I’m Sandesh.</h1>
+        <p className="text-lg text-neutral-700 max-w-2xl mt-small">
           I help teams design thoughtful, scalable digital experiences—by connecting user needs with product vision and systems that work.
         </p>
         <p className="text-base text-neutral-600 max-w-2xl">
           I’m currently the Director of User Experience Design at Sam’s Club (Walmart Global Tech). Previously, I led design at Microsoft, HP, and Yahoo—working across productivity tools, emerging markets, and hardware-software ecosystems.
         </p>
+        <h1 className="text-h1">Heading One</h1>
+<h2 className="text-h2">Heading Two</h2>
+<h3 className="text-h3">Heading Three</h3>
+
+<p className="text-body">This is body text.</p>
+<p className="text-small">This is small text.</p>
+<span className="text-xsmall uppercase tracking-wide">Label</span>
+
       </section>
 
       {/* Selected Work */}
