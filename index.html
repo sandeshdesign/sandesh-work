@@ -2,13 +2,111 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Literata:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sandesh Halarnkar</title>
+    <title>Sandesh Halarnkar – Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Bricolage+Grotesque:wght@700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        color: #1f1f1f;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        max-width: 988px;
+        margin: auto;
+        padding: 40px 20px;
+        line-height: 1.6;
+      }
+      nav {
+        width: 115px;
+        flex-shrink: 0;
+        padding-right: 20px;
+      }
+      nav a {
+        display: block;
+        margin-bottom: 12px;
+        color: #1f1f1f;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      nav a.active {
+        font-weight: 700;
+      }
+      main {
+        width: 736px;
+      }
+      h1, h2 {
+        font-family: 'Bricolage Grotesque', sans-serif;
+      }
+      h1 {
+        font-size: 44px;
+        line-height: 56px;
+        margin-bottom: 16px;
+      }
+      h2 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 48px;
+        margin-bottom: 16px;
+      }
+      .section {
+        margin-bottom: 64px;
+      }
+      .quote {
+        font-style: italic;
+        font-size: 17px;
+        color: #484848;
+        margin: 40px 0;
+      }
+      footer {
+        border-top: 1px solid #ccc;
+        padding-top: 16px;
+        font-size: 14px;
+        color: #666;
+        margin-top: 40px;
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+      <section class="section">
+        <h1>Hi, I’m Sandesh.</h1>
+        <p>I help teams design thoughtful, scalable digital experiences—by connecting user needs with product vision and systems that work.</p>
+        <p>I’m currently the Director of User Experience Design at Sam’s Club (Walmart Global Tech).</p>
+        <p>Previously, I led design at Microsoft, HP, and Yahoo—working across productivity tools, emerging markets, and hardware-software ecosystems.</p>
+      </section>
+
+      <section class="section">
+        <h2>Selected Work</h2>
+        <p><strong>Sprightly – Microsoft Garage</strong><br />Mobile-first content creation for microbusinesses in emerging markets.</p>
+      </section>
+
+      <section class="section">
+        <h2>My Learnings</h2>
+        <p>Over the years, I’ve realized that leading design isn’t about doing the work myself—it’s about setting the conditions for great design to happen.</p>
+        <p>Early in my career, I focused on craft. Now, I focus on building teams, aligning direction, and helping others grow. At Sam’s Club, I’ve seen firsthand how design thrives when there’s clarity, trust, and a shared sense of purpose.</p>
+        <ul>
+          <li><strong>Direction matters more than speed.</strong></li>
+          <li><strong>Design culture is built, not assumed.</strong></li>
+          <li><strong>Design is a system.</strong></li>
+          <li><strong>Coaching is part of the job.</strong></li>
+        </ul>
+        <p>I’m still learning. But what I try to do every day is bring structure without limiting creativity—and make space for people to do their best work.</p>
+      </section>
+
+      <section class="quote">
+        “Ideas don’t belong to those who think of them—they belong to those who bring them to life.”
+      </section>
+
+      <footer>
+        © 2025 Sandesh Halarnkar · <a href="https://linkedin.com/in/sandeshhalarnkar">LinkedIn</a> · <a href="mailto:sandesh@example.com">Email</a>
+      </footer>
+    </main>
   </body>
 </html>
